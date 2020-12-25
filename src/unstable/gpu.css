@@ -1,0 +1,7 @@
+@supports ( will-change: all ) { [gpu] { will-change: all }}
+
+@supports ( -webkit-transform: translateZ(0) ) { [gpu] { -webkit-transform: translateZ(0) }}
+@supports (    -moz-transform: translateZ(0) ) { [gpu] {    -moz-transform: translateZ(0) }}
+@supports (     -ms-transform: translateZ(0) ) { [gpu] {     -ms-transform: translateZ(0) }}
+@supports (      -o-transform: translateZ(0) ) { [gpu] {      -o-transform: translateZ(0) }}
+@supports (         transform: translateZ(0) ) { [gpu] {         transform: translateZ(0) }}

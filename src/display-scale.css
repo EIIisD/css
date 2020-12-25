@@ -1,6 +1,6 @@
-@media screen and (min-resolution: 0.0dppx) and (max-resolution: 1.5dppx) { :root { --display-scale: 1.0; --px: 1px }}
-@media screen and (min-resolution: 1.5dppx) and (max-resolution: 2.0dppx) { :root { --display-scale: 1.5; --px: 0.75px }}
-@media screen and (min-resolution: 2.0dppx) and (max-resolution: 2.5dppx) { :root { --display-scale: 2.0; --px: 0.5px }}
-@media screen and (min-resolution: 2.5dppx) and (max-resolution: 3.0dppx) { :root { --display-scale: 2.5; --px: 0.4px }}
-@media screen and (min-resolution: 3.0dppx) and (max-resolution: 3.5dppx) { :root { --display-scale: 3.0; --px: 0.3333333333px }}
-@media screen and (min-resolution: 3.5dppx) and (max-resolution: 999dppx) { :root { --display-scale: 4.0; --px: 0.25px }}
+@media screen and (-webkit-min-device-pixel-ratio: 0)   and (-webkit-max-device-pixel-ratio: 1.5), screen and (min-resolution: 0.0dppx) and (max-resolution: 1.5dppx) { :root { --display-scale: 1.0; --px: 1px }}
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2),   screen and (min-resolution: 1.5dppx) and (max-resolution: 2.0dppx) { :root { --display-scale: 1.5; --px: 0.75px }}
+@media screen and (-webkit-min-device-pixel-ratio: 2)   and (-webkit-max-device-pixel-ratio: 2.5), screen and (min-resolution: 2.0dppx) and (max-resolution: 2.5dppx) { :root { --display-scale: 2.0; --px: 0.5px }}
+@media screen and (-webkit-min-device-pixel-ratio: 2.5) and (-webkit-max-device-pixel-ratio: 3),   screen and (min-resolution: 2.5dppx) and (max-resolution: 3.0dppx) { :root { --display-scale: 2.5; --px: 0.4px }}
+@media screen and (-webkit-min-device-pixel-ratio: 3)   and (-webkit-max-device-pixel-ratio: 3.5), screen and (min-resolution: 3.0dppx) and (max-resolution: 3.5dppx) { :root { --display-scale: 3.0; --px: 0.3333333333px }}
+@media screen and (-webkit-min-device-pixel-ratio: 3.5) and (-webkit-max-device-pixel-ratio: 999), screen and (min-resolution: 3.5dppx) and (max-resolution: 999dppx) { :root { --display-scale: 4.0; --px: 0.25px }}
