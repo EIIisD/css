@@ -1,0 +1,9 @@
+:root {
+  --system-sans:    ui-sans-serif, Helvetica, Arial, sans-serif, emoji;
+  --system-serif:   ui-serif, Cambria, Georgia, serif, emoji;
+  --system-mono:    ui-monospace, Consolas, Menlo, monospace, emoji;
+  --system-apple:   BlinkMacSystemFont, -apple-system;
+  --system-windows: Segoe UI Historic, Segoe UI;
+  --system-google:  Roboto, Noto Sans;
+  --system-font:    var(--system-apple), var(--system-windows), var(--system-google), var(--system-sans);
+}

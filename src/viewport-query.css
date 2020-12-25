@@ -1,0 +1,3 @@
+@media not screen and (min-aspect-ratio: 1/1) { :root { --x: var(--false); --y: var(--true)  }}
+@media     screen and (max-height: 768px)     { :root { --x: var(--false); --y: var(--true)  }}
+@media     screen and (min-aspect-ratio: 1/1) { :root { --x: var(--true);  --y: var(--false) }}

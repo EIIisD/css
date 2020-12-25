@@ -1,0 +1,3 @@
+:root { --shape-rendering: geometricPrecision }
+svg * {   shape-rendering: inherit }
+svg   {   shape-rendering: var(--shape-rendering) }
